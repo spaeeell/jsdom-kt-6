@@ -1,4 +1,3 @@
-/* Базовые стили для всех элементов страницы */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +12,6 @@ body {
     line-height: 1.6;
 }
 
-/* ===== Стили шапки сайта ===== */
 header {
     display: flex;
     justify-content: space-between;
@@ -53,7 +51,6 @@ header nav a:hover {
     color: #2980b9;
 }
 
-/* ===== Общие стили для всех секций ===== */
 section {
     padding: 60px 10%;
 }
@@ -76,7 +73,6 @@ section h2::after {
     border-radius: 2px;
 }
 
-/* ===== Стили галереи ===== */
 .gallery-section {
     background: #e8f0f8;
     padding: 40px 10%;
@@ -163,7 +159,6 @@ section h2::after {
     transform: scale(1.05);
 }
 
-/* ===== Стили лайтбокса ===== */
 .lightbox-overlay {
     position: fixed;
     top: 0;
@@ -208,7 +203,6 @@ section h2::after {
     color: #2980b9;
 }
 
-/* ===== Стили карточек направлений ===== */
 .destinations-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(250px, 350px));
@@ -257,7 +251,6 @@ section h2::after {
     font-size: 18px;
 }
 
-/* ===== Стили калькулятора ===== */
 .calc-container {
     background: #ffffff;
     padding: 40px;
@@ -297,7 +290,6 @@ section h2::after {
     border: 1px dashed #16a085;
 }
 
-/* ===== Стили интерактивной карты ===== */
 .map-section {
     background: #e8f0f8;
 }
@@ -316,7 +308,6 @@ section h2::after {
     background: #1a3a4f;
 }
 
-/* ===== Стили секции отзывов ===== */
 .reviews-section {
     background: #e8f0f8;
 }
@@ -364,7 +355,6 @@ section h2::after {
     background: #1a6da3;
 }
 
-/* ===== Стили слайдера настроения ===== */
 .slider-container {
     display: flex;
     flex-direction: column;
@@ -430,7 +420,6 @@ section h2::after {
     color: #16a085;
 }
 
-/* ===== Подвал ===== */
 footer {
     background: #1a3a4f;
     color: #ffffff;
