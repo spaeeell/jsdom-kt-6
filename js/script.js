@@ -7,4 +7,5 @@ document.addEventListener("DOMContentLoaded", () => {
     buildCalculator(app);
     buildMap(app);
     buildReviews(app);
+    initKeyboard();
 });
