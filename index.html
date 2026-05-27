@@ -5,23 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkyWay — Путешествия по России</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Подключаем стили и скрипты для интерактивной карты Leaflet -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
 
-    <!-- Шапка сайта с логотипом и панелью навигации -->
     <header>
         <div class="logo">SkyWay</div>
-        <!-- Сюда через JavaScript будет добавлено меню навигации -->
         <nav id="navigation"></nav>
     </header>
 
-    <!-- Основной контейнер, куда динамически подгружается весь контент страницы -->
     <main id="app"></main>
 
-    <!-- Оверлей (Лайтбокс) для просмотра фотографий в полноэкранном режиме -->
     <div id="overlay" class="lightbox-overlay">
         <div class="lightbox-content">
             <img id="lightbox-img" src="" alt="Полноэкранное фото">
@@ -29,12 +24,10 @@
         </div>
     </div>
 
-    <!-- Подвал сайта с копирайтом -->
     <footer>
         <p>&copy; 2026 SkyWay Travel Inc. Все права защищены.</p>
     </footer>
 
-    <!-- Подключаем модульные JS файлы -->
     <script src="js/data.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/gallery.js"></script>
